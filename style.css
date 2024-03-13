@@ -12,18 +12,37 @@ body {
 
 /************* HEADER **************/
 header {
-    background-color: rgb(128, 188, 236);
+   background-image: url(jumbo.png);
     display: flex;
-    font-size:2em;
+    font-size:1em;
     padding: 1rem;
     justify-content: center;
 }
+
+
+
+
+.pulsante{
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 100px;
+    
+
+
+}
+
+
+
+
     
 .box1{
     
-    width: 15%;
+    width: 95rem;
     font-weight: bold;
     font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+   
 }
 
 .box2{
@@ -33,60 +52,97 @@ header {
     
 }
 
-.box1{
-    width: 15%;
-    
-    
-}
+
 
 /********FLEX-CONTAINER*********/
 
 .flex-container{
-    background-color: rgb(38, 4, 189);
+    background-image: url(jumbo.png);
     display: flex;
-    font-size:2em;
-    padding: 6rem;
-    display: flex;
+    height: 33rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: center;
 }
 
+.tasto{
+    border-radius: 100px;
+    background-color:white;
+    margin-left: 90;
+    height: 29px;
+}
+
+
+.tasto3{
+    border-radius: 100px;
+    background-color: black;
+    margin-left: 90;
+    color: white;
+    height: 29px;
+}
+
+
+p{
+    text-align-last: center;
+    height: 20%;
+    width: 100%;
+    min-height: 9rem;
+    font-size: x-large;
+}
+
+
+
+
+h1{
+    height: 20%;
+    width: 100%;
+    min-height: 16rem;
+    font-size: xxx-large;
+}
+
+
+
+
 nav {
-    background-color: violet;
-    width:50%;
+    height: 100%;
+    width: 46%;
     min-height: 15rem;
     text-align: center;
-    border: Dashed black
+
 }
+
+
+.text{
+    color: white;
+}
+
 
 
 /********Main********/
 
 
 .main{
-    background-color: white;
     display: flex;
-    font-size:2em;
-    padding: 15rem;
-    display: flex;
+    padding: 7rem;
     justify-content: space-around;
 
 }
 
 .big-box{
-    background-color: rgb(14, 170, 197);
-    width:80%;
-    min-height: 25rem;
-    text-align: center;
-    border: Dashed black
+    background-image: url(item1.svg);
+    min-height: 30rem;
+    min-width: 41rem;
+    height: 1;
 }
 
 
 .small-box{
-    background-color: rgb(138, 74, 175);
     width:50%;
     min-height: 15rem;
     text-align: center;
-    border: Dashed black
+    color:black ;
+    
 
 }
 
@@ -94,11 +150,8 @@ nav {
 
 
 .main-center{
-    background-color: gray;
     display: flex;
-    font-size:2em;
-    padding: 15rem;
-    display: flex;
+    padding: 7rem;
     justify-content: space-around;
 }
 
@@ -106,34 +159,79 @@ nav {
 
 
 .piccolo-box{
-    background-color: rgb(138, 74, 175);
     width:50%;
     min-height: 15rem;
     text-align: center;
-    border: Dashed black
-}
+    color:black; 
+}   
 
 
 
 .grande-box{
-    background-color: rgb(14, 170, 197);
-    width:80%;
-    min-height: 25rem;
-    text-align: center;
-    border: Dashed black
+    background-image: url(item2.svg);
+    min-height: 30rem;
+    min-width: 41rem;
+    height: 1;
 }
+
+.main-last{
+    display: flex;
+    padding: 7rem;
+    justify-content: space-around;
+}
+
+.fat-box{
+    background-image: url(item3.svg);
+    min-height: 30rem;
+    min-width: 41rem;
+    height: 1;
+}
+
+
+
+
+.Slim-box{
+    width:50%;
+    min-height: 15rem;
+    text-align: center;
+    color:black ;
+}
+
 
 
 /*******Main-end*****/
 
-.main-end{
-    background-color: rgb(8, 119, 32);
-    display: flex;
-    font-size:2em;
-    padding: 35rem;
-    display: flex;
-    justify-content: space-around;
+
+
+
+.chest-box{
+    width:50%;
+    min-height: 15rem;
+    text-align: center;
+    color:black ;
+    align-self: center;
+
 }
+
+
+
+.chest-box1{
+    background-image: url(item4-big.svg);
+    min-height: 30rem;
+    min-width: 53rem;
+    height: 1;
+    align-self: center;
+
+
+
+}
+
+.main-end{
+    display: flex;
+    padding: 7rem;
+    flex-flow: column-reverse;
+}
+    
 
 
 
@@ -143,53 +241,13 @@ nav {
 
 
 
-/******Prima parte bassa*******/
-.main-end-end{
-    background-color:black;
-    display:flex;
-    font-size:2em;
-    padding: 15rem;
-    display: flex;
-    justify-content: space-around;
-}
-
-#links{
-    min-height: 200px;
-    width: 60%;
-    justify-content: center;
-    margin: 0px auto;
-
-}
-
-.chest{
-    background-color: rgb(16, 190, 176);
-    width:50%;
-    min-height: 25rem;
-    text-align: center;
-    border: Dashed white
-    
-    
-}
-
-.chest:nth-child(1){
-    background-color: rgb(197, 49, 226);
-    width:80%;
-    min-height: 15rem;
-    text-align: center;
-    border: Dashed white
-
-}
-
-
 /*Seconda parte footer*/
 
 
 footer{
-    background-color: rgb(16, 190, 176);
     display: flex;
-    font-size:2em;
-    justify-content: space-between;
-    padding: 1rem;
+    padding: 7rem;
+    flex-flow: column-reverse;
 }
 
 .chest-end{
@@ -201,10 +259,21 @@ footer{
 
 
 .chest-first{
-    background-color: rgb(197, 49, 226);
-    height: fit-content;
-    width: 15%;
-    border: Dashed black
+    width:50%;
+    min-height: 15rem;
+    text-align: center;
+    color:black ;
+    align-self: center;
+
+}
+
+
+.tasto4{
+    border-radius: 100px;
+    background-color:rgb(76, 114, 241);
+    margin-left: 90;
+    height: 42px;
+    color: white;
 }
 
 
